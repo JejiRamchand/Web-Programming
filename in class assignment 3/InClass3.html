@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html>
+	<head>
+    	<title> InClassAssignment3 </title>
+    </head>
+	<body>
+		<table>
+			<tr>
+            	<td></td>
+                <td><div id="alert1"></div></td>
+            </tr>
+			<tr>
+   				<td><label for="ID">ID:</label></td>
+   				<td> <input type="text" id="ID" name="ID" /></td>
+   			</tr>
+
+			<tr>
+            	<td></td>
+                <td><div id="alert2"></div></td>
+            </tr>
+			<tr>
+    			<td><label for="First Name">FirstName:</label></td>
+    			<td><input type="text" id="FirstName" name="FirstName" /></td>
+			</tr>
+
+			<tr>
+            	<td></td>
+                <td><div id="alert3"></div></td>
+            </tr>
+			<tr>
+			    <td><label for="LastName">LastName:</label></td>
+    			<td><input type="text" id="LastName" name="LastName" /></td>
+			</tr>
+			<tr>
+				<td></td>
+ 				<td><button onclick="myFunction()">Add</button></td>
+			</tr>
+        </table>
+		<p id="demo1"></p>
+        <p id="demo2"> </p>
+        <p id="demo3"> </p>
+		<script>
+			function myFunction() {
+    		var id = document.getElementById("ID").value;
+    		var firstname = document.getElementById("FirstName").value;
+    		var lastname = document.getElementById("LastName").value;
+			var num = /^[-+]?[0-9]+$/;
+			
+			if(id=="" && firstname=="" && lastname=="")
+			{
+				
+				alert("You forgot to fill in the following field(s) ID,FirstName,LastName");
+				document.getElementById("alert1").innerHTML = "Please enter ID"; 
+    			document.getElementById("alert1").style.color = "red"; 
+    			document.getElementById("alert1").style.display = "block"; 
+				document.getElementById("alert1").style.textDecoration = "underline" ;	
+				document.getElementById("alert2").innerHTML = "Please enter a First Name"; 
+    			document.getElementById("alert2").style.color = "red"; 
+    			document.getElementById("alert2").style.display = "block"; 
+				document.getElementById("alert2").style.textDecoration = "underline" ;
+				document.getElementById("alert3").innerHTML = "Please enter a Last Name"; 
+    			document.getElementById("alert3").style.color = "red"; 
+    			document.getElementById("alert3").style.display = "block"; 
+				document.getElementById("alert3").style.textDecoration = "underline" ;
+			}
+			else { //big-else
+    		
+			if(id=="" )
+    		{
+				
+    			alert("You forgot to fill in the following field ID");
+    			document.getElementById("alert1").innerHTML = "Please enter ID"; 
+    			document.getElementById("alert1").style.color = "red"; 
+    			document.getElementById("alert1").style.display = "block"; 
+				document.getElementById("alert1").style.textDecoration = "underline" ;
+    		}  
+			else
+			{
+				if(id.match(num))
+			{
+				document.getElementById("demo1").innerHTML = "UserID: " + id;
+				document.getElementById("ID").value= " ";
+			}
+			
+			else
+			{
+				alert("ID Should Contain Only Numbers !");	
+			}
+				document.getElementById("alert1").innerHTML = " ";	
+			}
+    		if(firstname=="")
+    		{
+				
+    			alert("You forgot to fill the following field FirstName");
+	   			document.getElementById("alert2").innerHTML = "Please enter a First Name"; 
+    			document.getElementById("alert2").style.color = "red"; 
+    			document.getElementById("alert2").style.display = "block"; 
+				document.getElementById("alert2").style.textDecoration = "underline" ;
+    		}
+			else
+			{
+				if(firstname.match(num)) 
+				{
+					alert("First Name Should Not Contain Numbers !");	
+				}
+				else <!-- if(id != "" && firsname != "" && lastname != "") -->
+				{
+					document.getElementById("demo2").innerHTML = "First Name: " + firstname;
+					document.getElementById("FirstName").value= " ";
+				}
+				document.getElementById("alert2").innerHTML = " ";	
+			}
+    		if(lastname=="")
+   			{
+				
+    			alert("You forgot to fill the following field LastName");
+    			document.getElementById("alert3").innerHTML = "Please enter a Last Name"; 
+    			document.getElementById("alert3").style.color = "red"; 
+    			document.getElementById("alert3").style.display = "block"; 
+				document.getElementById("alert3").style.textDecoration = "underline" ;
+    		}
+			else
+			{
+				if(lastname.match(num)) 
+				{
+					alert("Name Must Not Contain Numbers !");	
+				}
+				else <!-- if(id != "" && firsname != "" && lastname != "") -->
+				{
+					document.getElementById("demo3").innerHTML = "Last Name: " + lastname;
+					document.getElementById("LastName").value= " ";
+					
+				}
+				document.getElementById("alert3").innerHTML = " ";	
+			}
+			
+			
+			}//big-else
+			
+			
+			
+		} 
+		
+			
+		
+		
+		</script>
+
+	</body>
+</html> 

@@ -1,0 +1,53 @@
+table {
+	width: 100%;
+	alignment-adjust:central;
+  border-collapse: separate;
+  border-spacing: 35px 0;
+}
+
+td {
+  padding: 10px 0;
+}
+
+body
+{ 
+  height: 100%;
+  background-color:#090;
+  background-attachment: fixed;
+
+}
+
+p
+{
+	background: #F0F0F0;
+	padding: 2px;
+}
+
+html
+{
+	background-color:#CCC;
+}
+
+table.footer {
+	color: #FFF;
+	border-style:solid;
+	border-width:thin;
+	border-color:#000;
+	background-color:#060;
+	width: 15%;
+  text-align:center;
+  padding:8px;
+  margin-left:500px; 
+    margin-right:auto;
+	margin-top:375px;
+	margin-bottom:50px;
+}
+
+img.hoveringicon {
+ float: right;
+ margin-right: 30px;
+ margin-top:375px;
+	margin-bottom:120px;
+	overflow: hidden;
+	padding-bottom:30px;
+}

@@ -1,0 +1,120 @@
+
+h1 {
+
+    
+    border-style: solid;
+    border-width: 5px;
+    border-color: white;
+    padding-top: 10px ;
+    padding-bottom: 5px;
+}
+h1{
+	background-color: white;
+	float: right;
+	right: 50px;
+	color: orange;
+}
+h2 {
+	background: black;
+    position: absolute;
+    left: 1070px;
+    top: 405px; 
+    color: #0BEBFB;
+    font-family: comic;
+    right: 5px;
+	padding: 20px;
+	clear: both;
+    border-style: solid;
+    border-width: 5px;
+    border-color: brown;
+    padding: 5px 5px;
+    
+}
+
+p{
+
+	border-width: 5px;
+    border-color: black;
+    color: #0BEBFB;
+	font: comic;
+	font-size: 50%;
+}
+
+h3 {
+
+	color: green;
+	
+}
+
+tr:nth-of-type(odd) {
+  background-color: #ccc;
+}
+body{
+    font-family: Tahoma; font-size: 80%; line-height: 1.2em; width: 100%; margin: 10px; background-image: url("paper.jpg");
+    
+    
+}
+#pic{
+	position: absolute;
+	left: 1050px;
+    top: 90px; 
+    bottom: 30px;
+    right: 50px;
+	padding: 20px;
+	clear: both;
+
+}
+a:hover { 
+    background-color: yellow;
+}
+
+.red{
+	font-weight: bold;
+	color: red;
+}
+
+#content{
+	border: 5px solid red;
+	margin: 10px 0;
+	background: black;
+	position: absolute;
+    left: 403px;
+    top: 70px; 
+    bottom: 30px;
+    right: 350px;
+	padding: 20px;
+	clear: both;
+	color: #0BEBFB;
+}
+#links{
+	border: 5px solid blue;
+	margin: 10px 0;
+	background: #E8FBFB;
+	position: absolute;
+	top: 70px;
+	left: 50px;
+	right: 1100px;
+	padding: 20px;
+	clear: both;
+	color: #0BEBFB;
+}
+#quote{
+	border: 5px solid green;
+	margin: 10px 0;
+	background: white;
+	position: absolute;
+	top: 405px;
+	left: 50px;
+	right: 1020px;
+	
+	padding: 20px;
+	clear: both;
+	color: #0BEBFB;
+}
+
+#whole{
+
+	margin-right: 10px;
+    margin-left: 10px;
+	background-color: #FFFF99; 
+}

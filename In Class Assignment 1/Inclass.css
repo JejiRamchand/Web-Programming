@@ -1,0 +1,37 @@
+body{
+font-family:Arial;
+font-size:13px;
+color: black;
+background-image:url("bg.jpg")
+}
+p{
+
+font-family:"baskerville";
+font: 15px arial, sans-serif;
+}
+h1{
+color:green;
+font-family:"Verdana";
+font: 25px arial, sans-serif;
+font-weight:bold;
+}
+h2{
+color: red;
+font-family:"Trebuchet MS";
+font:italic bold 12px/30px Georgia, serif;
+}
+h3{
+font-family:"Times New Roman";
+color: blue;
+font-weight:lighter;
+}
+h4{
+font-family:"Georgia";
+color: black;
+font-weight:bold;
+}
+h5{
+font-family:"Papyrus";
+text-align:right;
+font: 25px;
+}

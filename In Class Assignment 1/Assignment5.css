@@ -1,0 +1,21 @@
+
+body {
+text-align:center;
+background-color: #A9F5F2;
+font-family:Arial;
+font-size:25px;
+color:blue;
+}
+
+h1 {
+    color: maroon;
+    margin-left: 25x;
+} 
+
+table, th, td {
+    border: 1px solid black;
+ border-collapse: collapse;
+background-color:#F5A9A9;
+background-image: url("tb.jpg");
+font-size: 110%
+}

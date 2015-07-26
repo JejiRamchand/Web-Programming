@@ -1,0 +1,40 @@
+body{
+font-family:"Comic Sans MS", cursive, sans-serif; background-image: url("backg5.jpg"); background-repeat: repeat; background-attachment: fixed;
+font-size:0.875em;
+color: blue;
+}
+h1{
+  letter-spacing: 2px;
+  color: orange;
+}
+#con{
+color:red;
+top: 60px;
+left: 5px;
+}
+#verti {
+  border-radius: 4px;
+  box-shadow: 0 0 10px rgba(0,0,0,.15);
+  overflow: hidden;
+  text-align: left;
+  background-color: #D0F5A9;
+}
+
+  #verti  ul {
+    list-style-type: none;
+  }
+
+   div#menu ul  {
+    margin:0;padding:0;
+}
+div#menu ul li {
+    display:inline; margin:5px;
+}
+
+div#menu ul li a{
+  text-decoration: none;
+    border: 1px solid #CCFFFF;
+    margin: 10px;
+    display: inline;
+    background-color: #CCFFFF;
+}

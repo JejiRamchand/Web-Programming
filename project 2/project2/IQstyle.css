@@ -1,0 +1,33 @@
+html
+{ 
+  height: 100%;
+  background-image:url(iqtest.jpg);
+  background-attachment: fixed;
+  padding:50px;
+}
+ body{
+            color:#000;
+            font-family:Comic Sans MS;
+			font-size:16px;
+            padding:10px;
+			 background-image:url(IQ1.jpg);
+			 background-image opacity:0.5;
+			 font-weight:1000;
+			
+        }
+
+h1
+{ color: #000;
+  background-color: #F0F0F0;
+  font-family:Century Gothic, Futura, Verdana;
+  text-align: center;
+}
+
+		p{
+			color: red;
+			font-family:"Comic Sans MS", cursive;
+			font-style:italic;
+			font-weight:400;
+			
+		}
+		.error {color: #FF0000;}
