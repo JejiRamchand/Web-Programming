@@ -1,0 +1,137 @@
+/*
+    Document   : style
+    Created on : July 29, 2015
+    Authors     : Jeji Vedullapalli, Venkatesh Javvaji
+    
+*/
+
+root {
+    display: block;
+}
+
+@font-face
+{
+	font-family: MyHeaders;
+	src: url('header.ttf');
+}
+
+body {
+	font-family:Comic Sans MS;
+	font-size:16px;
+	background-color: #CC6600 ;
+}
+
+#content {
+	margin-left: 170px;
+	margin-right: 20px;
+	margin-top: 70px;
+	padding: 20px;
+	background-color: #FFCC00;
+	box-shadow: 0px 1px 4px #000;
+}
+
+div#total {
+    border-bottom-right-radius: 15px;
+	right: 7px;
+	padding: 30px;
+	padding-top: 20px;
+	padding-bottom: 8px;
+	display: block;
+	box-shadow: 0px 1px 4px #000;
+	opacity: 0.7;
+	top: 50px;
+	position: fixed;
+	background-color: #FF6600;
+}
+
+form#register {
+	line-height: 1.3em;
+	margin: auto;
+	padding: 3px 20px;
+	background-color:#FFCC00;
+	box-shadow: 0px 1px 4px #000;
+	width: 210px;
+}
+form#register input[type = "text"], form#register input[type = "password"] {
+	float: right;
+}
+div#register {
+	margin-left: 170px;
+	margin-right: 20px;
+	margin-top: 50px;
+	padding: 20px;
+}
+
+h1 {
+	text-align: center;
+	font-family: MyHeaders;
+	font-size: 2.5em;
+}
+
+th.profile {
+	text-align: right;
+}
+
+/*																										*/
+/*																										*/
+/*								This sets up the navigation section and top bar							*/
+/*																										*/
+/*																										*/
+
+.topbar {
+    width: 100%;
+    color: #FF6600;
+    height: 40px;
+    top: 0px;
+    left: 0px;
+    position: fixed;
+    min-width: 1000px;
+    background-color: #000000;
+    box-shadow: 0px 1px 4px #000;
+    z-index: 15;
+    opacity: 0.7;
+    font-family: Verdana;
+}
+.topbar a {
+	color: #FF6600;
+	font-size: smaller;
+}
+.topbar p {
+	display: inline-block;
+	margin: 9px;
+}
+.topbar form {
+	margin: 9px;
+}
+.nav {
+    border-bottom-left-radius: 15px;
+	float: left;
+	padding: 30px;
+	padding-top: 20px;
+	padding-bottom: 8px;
+	display: block;
+	box-shadow: 0px 1px 4px #000;
+	top: 50px;
+	position: fixed;
+	background-color: #FFCC00;
+}
+.nav a {
+	display: block;
+	margin-bottom: 12px;
+	padding: 5px;
+	text-decoration: none;
+	text-align: center;
+	width: 70px;
+	text-decoration: none;
+	color: #000000;
+}
+.nav a:hover {
+	color: #FFCC00;
+    background-color: #000000;
+    -webkit-transition: background-color 1.5s cubic-bezier(0, 0.75, 0, 1);
+	-moz-transition: background-color 1.5s cubic-bezier(0, 0.75, 0, 1);
+	-ms-transition: background-color 1.5s cubic-bezier(0, 0.75, 0, 1);
+	-o-transition: background-color 1.5s cubic-bezier(0, 0.75, 0, 1);
+	transition: background-color 1.5s cubic-bezier(0, 0.75, 0, 1);
+	opacity: 0.8;
+}

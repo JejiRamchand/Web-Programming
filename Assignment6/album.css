@@ -1,0 +1,66 @@
+html{
+	background: url(image.jpg) no-repeat fixed; 
+	height:100%;
+	padding:65px;
+	
+}
+body{
+	background-color: #B0B0B0;
+	background-size: cover;
+	background: url(image2.jpg) no-repeat  center; 
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	color:black;
+	font-family:serif;
+	font-weight:bolder;
+	padding:43px;
+	font-size:20px;
+
+}
+
+
+#search{
+border: 1px solid black;
+width: 836px;
+padding-left: 10px;
+}
+
+
+table{
+border: 1px solid white;
+width: 848px;
+}
+
+th{
+border-collapse:collapse;
+border: 1px solid white;
+background-color: gold;
+text-align:center;
+color: black;
+}
+
+td{
+border-collapse:collapse;
+border: 1px solid white;
+background-color: lightgrey;
+text-align: right;
+padding-right: 5px;
+width: auto;
+color: black;
+}
+
+#output{
+text-align:center;
+}
+
+#main{
+width: 900px;
+margin-left: 100px;
+margin-right: 100px;
+}
+
+span{
+text-align:center;
+}
